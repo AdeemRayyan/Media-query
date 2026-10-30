@@ -327,7 +327,7 @@ body {
     justify-content: center;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 25px;
 }
 
 
@@ -342,7 +342,8 @@ body {
 
     .menu {
         width: 250px;
-        background-color: white;
+        height: 100%;
+        border-right: 1px solid #E0E1E4;
     }
 
     .nav-1 {
@@ -368,16 +369,26 @@ body {
 
 
     .nav-2 {
-        padding: 25px 0px;
+        padding: 25px 10px;
         flex-direction: column;
         align-items: flex-start;
-        margin-left: 10px;
     }
 
     .nav-5 {
-        width: 100%;
-        border-radius: 0px;
+        width: 240px;
+        height: 40px;
+        border-radius: 5px;
         align-items: left;
+        background: #2A7B9B;
+        background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    }
+
+    .enroll-icon{
+        display: none;
+    }
+
+    .enroll-icon a{
+        font-size: 18px;
     }
 
     .line {
@@ -388,6 +399,13 @@ body {
         width: 100%;
         border-bottom: 1px solid  rgb(169, 169, 169);
         padding-top: 5px;
+    }
+
+
+    .line-2{
+        width: 100%;
+        border-bottom: 1px solid   rgb(169, 169, 169);
+        margin-right: 10px;
     }
 
     .nav-3 .dropdown-menu {
